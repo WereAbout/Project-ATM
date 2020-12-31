@@ -5,7 +5,7 @@ public class personal {
 
     public static final String lastname  = "Olaf";
 
-    public static final String fullname = ((firstname) + " " +  (lastname));
+    public static final String fullname = (firstname +' '+ lastname);
 
     public static final int age = 24;
 

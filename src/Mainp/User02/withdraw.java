@@ -6,7 +6,7 @@ import java.util.Scanner;
 
 public class withdraw {
     public static void function() {
-        user2 user = new user2();
+       // user2 user = new user2();
 
         Main main = new Main();
 

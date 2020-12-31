@@ -12,11 +12,11 @@ public class DisplayU2 {
 
     public static void screen1(){
 
-        user2 user2data = new user2();
+        //user2 user2data = new user2();
 
         System.out.println ( );
         System.out.println ( );
-        System.out.println ("Welcome " + personal.fullname );
+        System.out.println ("Welcome " + data.User02D.personal.fullname );
 
         System.out.println ( );
 
@@ -26,13 +26,13 @@ public class DisplayU2 {
 
     public static void user2info(){
 
-        user2 data = new user2();
+        //user2 data = new user2();
 
         System.out.println ( );
 
-        System.out.println (" First Name : " + personal.firstname );
-        System.out.println (" Second Name : " + personal.lastname );
-        System.out.println (" Age : " + personal.age );
+        System.out.println (" First Name : " + data.User02D.personal.firstname );
+        System.out.println (" Second Name : " + data.User02D.personal.lastname );
+        System.out.println (" Age : " + data.User02D.personal.age );
 
         System.out.println ( );
 

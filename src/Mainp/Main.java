@@ -46,7 +46,7 @@ public class Main {
         else if ( data.User01D.account.accountnumber == inputnumber && data.User01D.account.accountpin == inputpin){
             Mainp.User01.DisplayU1.screen1 ();
         }
-        else if (inputnumber == user4.accountnumber && user4.accountpin == inputpin){
+        else if (inputnumber == data.User02D.account.accountnumber && data.User02D.account.accountpin == inputpin){
             DisplayU4.screen1 ();
         }
         else{

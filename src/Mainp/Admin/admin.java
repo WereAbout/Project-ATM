@@ -24,9 +24,9 @@ public class admin extends ADMIN{
         System.out.println ( );
 
         System.out.println ("select one one of the user by their account number :");
-        System.out.println ("1). " + user.fullname );
-        System.out.println ("2). " + user2.fullname );
-        System.out.println ("3). " + user4.fullname );
+        System.out.println ("1). " + data.User01D.personal.fullname );
+        System.out.println ("2). " + data.User02D.personal.fullname );
+        System.out.println ("3). " + data.User04D.personal.fullname );
 
 
         int admininput = reader.nextInt ();

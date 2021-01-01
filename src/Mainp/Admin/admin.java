@@ -28,7 +28,6 @@ public class admin extends ADMIN{
         System.out.println ("2). " + data.User02D.personal.fullname );
         System.out.println ("3). " + data.User04D.personal.fullname );
 
-
         int admininput = reader.nextInt ();
 
         switch ( admininput ){

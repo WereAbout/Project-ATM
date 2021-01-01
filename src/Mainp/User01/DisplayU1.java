@@ -19,23 +19,7 @@ public class DisplayU1 {
 
     }
 
-    public static void userinfo(){
-
-        System.out.println ( );
-
-        System.out.println ("First Name : " + personal.firstname );
-        System.out.println ("Last Name : " + personal.lastname );
-        System.out.println ("Age : " + personal.age );
-
-        System.out.println ( );
-
-        System.out.println ("Current Account Balence : " + data.User01D.account.accountbalence + '$');
-
-        System.out.println ( );
-
-
-    }
-
+    
     //data.User01D.account.
 
     public static void userversioninfo(){

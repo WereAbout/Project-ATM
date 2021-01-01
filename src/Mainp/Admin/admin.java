@@ -33,7 +33,7 @@ public class admin extends ADMIN{
 
         switch ( admininput ){
             case 1:
-                DisplayU1.userinfo ();
+                Mainp.Admin.user1.user1A();
                 break;
             case 2:
                 DisplayU2.user2info ();
